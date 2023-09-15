@@ -5,6 +5,8 @@ pool:
     vmImage: 'ubuntu-latest'
 
 variables:
+  IMAGE_REGISTRY_CONNECTION: 'Stanely4Lin'
+  IMAGE_REGISTRY: 'Stanely4Lin'
   IMAGE_REPOSITORY: 'stanely4lin.azurecr.io'
   TAG: '$(Build.BuildId)'
 
